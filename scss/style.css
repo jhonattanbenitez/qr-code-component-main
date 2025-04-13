@@ -11,12 +11,13 @@ body {
 }
 
 .c-card {
-  max-width: 320px;
+  width: 320px;
   height: 499px;
   border-radius: 15px;
   margin: 20px auto;
   background-color: #fff;
   padding: 16px;
+  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
 }
 .c-card__image {
   width: 100%;
@@ -36,7 +37,6 @@ body {
 .c-card__title {
   font-size: 21px;
   font-weight: 700;
-  margin: 16px 0 8px;
   color: #1F314F;
   text-align: center;
 }
